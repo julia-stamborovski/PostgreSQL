@@ -1,4 +1,4 @@
-# PostgreSQL
+# <img width="50" height="50" src="https://user-images.githubusercontent.com/87834766/235192658-9cc03c75-9b34-4330-97ec-46b0f8ee2f07.svg" /> PostgreSQL 
 
 ## Versão
 12.9
