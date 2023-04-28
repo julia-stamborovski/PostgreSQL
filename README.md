@@ -1,5 +1,5 @@
 # <img width="50" height="50" src="https://user-images.githubusercontent.com/87834766/235192658-9cc03c75-9b34-4330-97ec-46b0f8ee2f07.svg" /> PostgreSQL 
-Este projeto utiliza o PostgreSQL como sistema gerenciador de banco de dados. Durante sua implementação, foram criadas estruturas de tabela utilizando a sintaxe CREATE TABLE para definir os campos e tipos de dados que seriam armazenados. Através da utilização da cláusula SELECT, foram realizadas consultas no banco de dados, obtendo resultados de acordo com as condições estabelecidas no comando WHERE.
+Este projeto de estudo utiliza o PostgreSQL como sistema gerenciador de banco de dados. Durante sua implementação, foram criadas estruturas de tabela utilizando a sintaxe CREATE TABLE para definir os campos e tipos de dados que seriam armazenados. Através da utilização da cláusula SELECT, foram realizadas consultas no banco de dados, obtendo resultados de acordo com as condições estabelecidas no comando WHERE.
 
 Para adicionar dados ao banco de dados, foram utilizados comandos INSERT, permitindo a inserção de novas linhas na tabela. Através do comando UPDATE, também foi possível atualizar informações já existentes no banco de dados, enquanto o comando DELETE foi utilizado para remover dados indesejados.
 
