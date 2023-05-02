@@ -61,3 +61,12 @@ SELECT * FROM aluno WHERE id = 1;
 UPDATE aluno SET nome = 'shizuko', observacaso = 'nada', ativo = FALSE WHERE ID = 1;
 ~~~
 ![aviso](https://img.shields.io/badge/%3D%20-%20antes%20de%20atribuir%20um%20novo%20valor.-yellow)
+
+# DELETE
+~~~
+SELECT * FROM aluno WHERE nome = 'shizuko';
+~~~
+<small>Antes o select</small>
+~~~
+DELETE FROM aluno WHERE nome = 'shizuko';
+~~~
