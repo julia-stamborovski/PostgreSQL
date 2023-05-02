@@ -70,3 +70,19 @@ SELECT * FROM aluno WHERE nome = 'shizuko';
 ~~~
 DELETE FROM aluno WHERE nome = 'shizuko';
 ~~~
+
+# Filtrar um campo e como atribuir <i>alias</i>
+SELECT nome FROM aluno;
+SELECT nome, idade, matriculado_em FROM aluno;
+
+## Comando AS -> <i>alias</i>
+Para trocar o nome de exibição dos campos na tabela. 
+~~~
+SELECT matriculado_em AS quando_se_matriculou
+~~~
+ essa coluna aparecerá com o nome "quando_se_matriculou".
+
+O <i> alias </i> pode ser usadon também para atribuir nomes com espaço, sendo útil, por exemplo, para elaborar um relatório. 
+~~~
+SELECT nome AS "Nome do Aluno", idade FROM aluno;
+~~~
